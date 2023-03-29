@@ -1,0 +1,45 @@
+/* Alapbeállítások */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1, p, input {
+  box-sizing: border-box;
+}
+
+
+
+/* Gombok */
+.button, #tippel {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  height: 65px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  padding: 10px 20px;
+}
+
+.button:hover, #tippel:hover {
+  background-color: #3e8e41;
+}
+
+/* Tartalom */
+.container8 {
+  margin: 20px;
+  display:flow;
+  align-items: center;
+}
+
+/* Üzenet */
+#uzen {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 20px;
+}
